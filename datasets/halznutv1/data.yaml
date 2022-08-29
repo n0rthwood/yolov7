@@ -1,0 +1,5 @@
+train: datasets/halznutv1/train/images
+val: datasets/halznutv1/valid/images
+
+nc: 1
+names: ['crack']

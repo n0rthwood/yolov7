@@ -1,0 +1,1 @@
+python train_aux.py --workers 8 --device 0,1 --batch-size 128 --epochs 2500  --data datasets/halznutv1/data.yaml --img 224 224 --cfg cfg/training/yolov7-w6-crack.yaml --weights 'pre_trained_model/yolov7-d6_training.pt' --name yolov7-w6-224-cat1-run --hyp data/hyp.scratch.custom.yaml

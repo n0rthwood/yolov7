@@ -1,0 +1,6 @@
+name: yolov7
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
